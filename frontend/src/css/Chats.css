@@ -1,0 +1,56 @@
+#ChatsContainer {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-image: url("../img/doodle-space-wallpaper-1024x768-wallpaper-transformed.jpeg");
+    background-size: cover;
+    margin: 0;
+    padding: 0.1cm 0.2cm;
+    border-bottom: solid 0.12ch #357b81;
+    border-right:solid 0.12ch #357b81;
+
+}
+.MessageContainer{
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.chatvuota{
+    padding: 3px;
+    height: auto;
+    width: 80%;
+    display:flex;
+    color:white;
+    background-color: #00d2fa;
+    font-weight: bold;
+    border-radius: 1.5ch;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+   left: 10%;
+}
+#cercamico-label{
+    color:white;
+}
+#noamici{
+    height: 3ch;
+    width: 80%;
+    display:flex;
+    color:white;
+    background-color: #00d2fa;
+    font-weight: bold;
+    border-radius: 1.5ch;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40%;
+    margin:auto;
+}
+em-emoji-picker{
+    height: 50vh;
+}
+
+
+

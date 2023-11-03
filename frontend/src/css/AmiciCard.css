@@ -1,0 +1,16 @@
+.email{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    color: #00b3d6;
+    margin: 0;
+}
+.amici{
+    cursor: pointer;
+    border-radius: 2.5ch;
+}
+.amici:hover{
+    background-color: #c5dfff;
+    border-radius: 2.5ch;
+}
